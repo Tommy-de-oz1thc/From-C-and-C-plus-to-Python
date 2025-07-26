@@ -54,7 +54,12 @@ nasm -f elf64 longest_word.asm -o longest_word.o
 ld longest_word.o -o longest_word
 ./longest_word
 ```
+## 🏗️ NASM-version (Windows)
 
+```bash
+nasm -f win64 longest_word_windows.asm -o longest_word.obj
+GoLink /console longest_word.obj msvcrt.dll
+```
 ---
 
 > En del af projektet [From ASM to Python](../../README.md)
