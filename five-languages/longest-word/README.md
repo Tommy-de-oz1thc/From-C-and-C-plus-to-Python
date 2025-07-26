@@ -12,7 +12,7 @@ Denne mappe indeholder løsninger på opgaven **"Find det længste ord i en sæt
 
 | Filnavn                 | Sprog     | Beskrivelse                         |
 |-------------------------|-----------|-------------------------------------|
-| `longest_word.asm`      | NASM      | Placeholder – viser struktur        |
+| `longest_word.asm`      | NASM      | 64-bit Linux-version med input      |
 | `longest_word.c`        | C         | Brug af `isalnum()`, `fgets()` og `strlen()` |
 | `longest_word.cpp`      | C++       | Brug af `std::istringstream`       |
 | `longest_word.cs`       | C#        | Split og loop                       |
@@ -43,6 +43,17 @@ Det længste ord er: Giraffen
 - Tæl også længden på det længste ord
 - Udskriv alle ord med samme længde som det længste
 - Ignorer tal og tegnsætning i vurderingen
+
+## 🏗️ NASM-version (Linux)
+
+- NASM-versionen bruger `syscall` til at læse input og finde det længste ord i en sætning.
+- Kræver Linux 64-bit og NASM/ld.
+
+```bash
+nasm -f elf64 longest_word.asm -o longest_word.o
+ld longest_word.o -o longest_word
+./longest_word
+```
 
 ---
 
