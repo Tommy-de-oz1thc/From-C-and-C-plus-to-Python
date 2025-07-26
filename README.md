@@ -1,2 +1,10 @@
-# From-asm-to-Pyhton
-5 Language code examples
+# From ASM to Python
+
+👨‍💻 Et tværsprogligt læringsprojekt:
+**Løsning af samme opgave i fem forskellige programmeringssprog** – fra lavniveau Assembly til højniveau Python.
+
+## 📚 Formål
+At lære, sammenligne og forstå, hvordan forskellige sprog håndterer den samme opgave – her: at **vende en tekststreng**.
+
+## 🛠️ Struktur
+
