@@ -1,4 +1,23 @@
+# From ASM to Python
 
+👨‍💻 Et tværsprogligt læringsprojekt:
+**Løsning af samme opgave i fem forskellige programmeringssprog** – fra lavniveau Assembly til højniveau Python.
+
+## 📚 Formål
+At lære, sammenligne og forstå, hvordan forskellige sprog håndterer den samme opgave – her: at **vende en tekststreng**.
+
+## 🛠️ Struktur
+
+```
+five-languages/
+└── string-reversal/
+    ├── reverse.asm   ; NASM Assembly
+    ├── reverse.c     ; C
+    ├── reverse.cpp   ; C++
+    ├── reverse.cs    ; C#
+    ├── reverse.py    ; Python
+    └── README.md     ; Forklaring og læringsnoter
+```
 
 ## 🧵 Første opgave: Vend en streng
 **Eksempel:**
