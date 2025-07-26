@@ -6,4 +6,6 @@
  
 ## 🧵 Opgave: Palindrom-tjek
 - palindrome-check
+
+- longest-word
   
