@@ -3,3 +3,7 @@
 
 ## 🧵 Opgave: Tæl antal vokaler
 - vowel-count
+ 
+## 🧵 Opgave: Palindrom-tjek
+- palindrome-check
+  
